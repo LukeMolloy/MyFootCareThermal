@@ -1,0 +1,7 @@
+#Mon Nov 19 01:00:01 AEDT 2018
+base.0=C\:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c67a4043a6edc6a605ea17f50e41d9c20a72a097
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2c623f4d7c54e749bc3488b352808155045eb9d0\\classes.dex
+base.1=C\:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2c623f4d7c54e749bc3488b352808155045eb9d0
+file.0=C\:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c67a4043a6edc6a605ea17f50e41d9c20a72a097\\classes.dex

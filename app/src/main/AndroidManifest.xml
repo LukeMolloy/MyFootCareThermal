@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.footcare.diabeticcarethermal">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_DOCUMENTS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MyFootCareThermal"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,android:label">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Analysis"
+            android:label="@string/title_activity_analysis"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Gallery"
+            android:label="@string/title_activity_gallery"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TakeFootImage"
+            android:configChanges="keyboardHidden|orientation"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ProcessFootImage"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <!-- <activity android:name=".Journal"></activity> -->
+        <activity
+            android:name=".CameraView"
+            android:configChanges="keyboardHidden|orientation"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+
+        <receiver android:name=".NotifyService" />
+
+        <activity android:name=".LeftOrRight" />
+        <activity
+            android:name=".Details"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ProcessFootImage_v2"
+            android:label="@string/title_activity_process_foot_image_v2"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Notes"
+            android:label="Add Notes"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Reward"
+            android:label="@string/title_activity_reward"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Terms"
+            android:label="Disclaimer"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Credits"
+            android:label="@string/title_activity_credits"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Notifications"
+            android:label="@string/title_activity_notifications"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DateEdit"
+            android:label="@string/title_activity_date_edit" />
+        <activity
+            android:name=".ActionHub"
+            android:label="Action Hub"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CameraViewThermal"
+            android:parentActivityName=".ActionHub">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.footcare.diabeticcarethermal.ActionHub" />
+        </activity>
+        <activity android:name=".ThermalFeedback"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ThermalFeedbackMessage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ThermalFeedbackNegative"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

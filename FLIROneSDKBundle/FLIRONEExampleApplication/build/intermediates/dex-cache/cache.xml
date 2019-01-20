@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_7f4fe1eff0f35ed38ebc68a3851db81431c5a08a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\b03b39fca10159833a917aab100e2b8cfb2df7cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b9253f0b5bc49991552c16b8c6c2f6444598b4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\f19ca022e9db0989773e9bc7c9f7e37cffd9f3de\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b2cee4e612fa25453f5c7b119a3350332a4d3eb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\d603aaba551025831b57c3d4fba12f897df20158\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_638e23901617353adad85e87b8cc041dab3397fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_556e44c4ce4a9b6286ba52b117891d1e5826f572\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\4310cdc94a9b682b7d89b677935540c448bf3b39\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9473da456e32b93842b95caf0c0e1e6aae2485f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\813857673c1625257b1b8fd085fce21a9e5d7a7d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d81bc9baac38e466934e8e027e755f5dfe914de">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dd90b52077a64314f80b225739475e054b548498\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\6caf77c93f9e1824e801d23366dc30f33acfe31a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d429b9781444e7fc2601dda69f93fd79ffe5425\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\c2ca375272f2b4a7dee189e2653de8f41fb59524\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d282df1a576a3d95677f773f85cfffc0b0b7ff85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c67a4043a6edc6a605ea17f50e41d9c20a72a097\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\5ecd0ac8fe6ad830f864c9aec449412af93fb476\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4e471490fcdd4dcb6d956f2880e8f4c3c118b2d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\2f0bd4e9b22f0592dd8d8e79d335935ddad8d82d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55e94fcd337f749e5c43423ae9a06bd0c103f645\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ff847a1ba0d4e5d106156605cd4306a38ebf3c0">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2c623f4d7c54e749bc3488b352808155045eb9d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\a9623946ef464f06ef109b8aa3a455c55f3351c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_07cb9efedc9f4cf0300b5d99a8b8775fd5b56b41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Luke\.android\build-cache\450b26b5c73b37eaee6804cabbee2f6e93d2a9ea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Luke\Desktop\MyFootCareThermal\FLIROneSDKBundle\FLIRONEExampleApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e677b9e2c96cfd7e15810431c165f2c543431df7\classes.dex" />
+    </item>
+
+</items>

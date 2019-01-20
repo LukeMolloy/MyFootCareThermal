@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:bottomLeftRadius="10dp"
+    android:bottomRightRadius="10dp"
+    android:orientation="vertical"
+    android:topLeftRadius="10dp"
+    android:topRightRadius="10dp">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Which Foot?"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/messageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Please choose the foot with the wound you would like to monitor."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonLeftChoice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:padding="30dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/actionhub_left_popup" />
+
+        <ImageButton
+            android:id="@+id/imageButtonRightChoice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:padding="30dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/actionhub_right_popup" />
+    </LinearLayout>
+
+</LinearLayout>

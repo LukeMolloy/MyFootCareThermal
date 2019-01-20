@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008598</color>
+    <color name="colorPrimaryDark">#008598</color>
+    <color name="colorAccent">#F37121</color>
+    <color name="primary_dark_material_light_1">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="redes_button">#F37121</color>
+    <color name="redes_banner">#008598</color>
+    <color name="textbox_colour">#eeeeee</color>
+    <color name="Red">#dc3131</color>
+</resources>

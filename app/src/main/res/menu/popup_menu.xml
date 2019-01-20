@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/photos"
+        android:title="Foot Checks" />
+    <item android:id="@+id/notifications"
+        android:title="Notifications" />
+    <item android:id="@+id/settings"
+        android:title="Settings" />
+    <item android:id="@+id/credits"
+        android:title="Credits" />
+    <item android:id="@+id/terms"
+        android:title="Terms" />
+    <item android:id="@+id/export"
+        android:title="Export" />
+</menu>

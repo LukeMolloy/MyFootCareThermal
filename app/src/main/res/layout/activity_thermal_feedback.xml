@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThermalFeedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@color/redes_button"
+        android:baselineAligned="false"
+        android:foregroundGravity="fill"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:srcCompat="@android:drawable/stat_sys_warning" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WARNING!"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We have detected your foot is hotter than it should be"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you have any symptoms on or around your foot wound?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <CheckBox
+                android:id="@+id/boxRedness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkedBox"
+                android:text="Redness"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/boxPus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkedBox"
+                android:text="Pus"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/boxSwelling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkedBox"
+                android:text="Swelling"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/boxPain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkedBox"
+                android:text="Pain"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/boxOdour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkedBox"
+                android:text="Unpleasant odour"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/boxFluid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkedBox"
+                android:text="Increase in fluid"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/boxFlu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="checkedBox"
+                android:text='General "flu"-like symptoms'
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/boxNone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="noneOfTheAboveActivity"
+                android:text="None of the above"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_rounded_redesign_3"
+                android:onClick="btnNextActivity"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

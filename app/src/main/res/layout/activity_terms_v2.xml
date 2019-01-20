@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyFoves individuals to use their mobile phones to take photos of their feet. A foot check feature extracts the DFU size from the photo and shows the healing progress. MyFootCare visualizes personal goals and provides reminders to enact regular self-care.   App concept and interaction design: Bernd Ploderer, Ross Brown, Peter Lazzarini, Jaap van Netten Visual design: Clare Villalba Software development: Luke Molloy Additional podiatry expertise: Damien Clark, Jason Warnock   The development has been supported by Queensland University of Technology (QUT) and The Prince Charles Hospital Foundation.   http://www.myfootcare.org/The content of MyFootCare is provided solely for educational and informational purposes and is not intended as medical advice.  It should not be considered a substitute for the advice of medical practitioners or other qualified healthcare professionals. If users require medical advice, they should consult appropriately qualified healthcare professionals.   MyFootCare content is provided without any representations or warranties, express or implied, as to its accuracy, currency or completeness. To the fullest extent permissible at law, Queensland University of Technology, its employees and affiliates exclude all liability for loss or damage caused by or arising out of any reliance on the information contained in this mobile phone application.   All content of the mobile phone application is the property of Queensland University of Technology. All content is subject to the protection of Australian and international copyright laws. All rights reserved. No content may be reproduced or transmitted in any form without the prior written permission of Queensland University of Technology.   Last updated:   [ date of last app udate ]   © [ current year ] Queensland University of Technology, Brisbane, Australia. ABN 83 791 724 622, CRICOS provider No. 00213J The App includes OpenCV. By downloading, copying, installing or using the software you agree to this license. If you do not agree to this license, do not download, install, copy or use the software. License Agreement For Open Source Computer Vision Library (3-clause BSD License) Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: ·         Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. ·         Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. ·         Neither the names of the copyright holders nor the names of the contributors may be used to endorse or promote products derived from this software without specific prior written permission. This software is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall copyright holders or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage." />
+
+</LinearLayout>

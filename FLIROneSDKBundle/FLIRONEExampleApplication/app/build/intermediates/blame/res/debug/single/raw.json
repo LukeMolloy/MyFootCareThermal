@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sampleframes.zip",
+        "source": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\src\\main\\res\\raw\\sampleframes.zip"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\colorwheel6.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\colorwheel6.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\rainhc.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\rainhc.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\colorwheel12.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\colorwheel12.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\lava.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\lava.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\rainbow.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\rainbow.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\iron.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\iron.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\coldest.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\coldest.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\default_camera_files.zip",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\default_camera_files.zip"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\whitehot.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\whitehot.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\arctic.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\arctic.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bw.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\bw.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blackhot.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\blackhot.pal"
+    },
+    {
+        "merged": "C:\\Users\\Luke\\Desktop\\MyFootCareThermal\\FLIROneSDKBundle\\FLIRONEExampleApplication\\app\\build\\intermediates\\res\\merged\\debug\\raw\\hottest.pal",
+        "source": "C:\\Users\\Luke\\.android\\build-cache\\813857673c1625257b1b8fd085fce21a9e5d7a7d\\output\\res\\raw\\hottest.pal"
+    }
+]

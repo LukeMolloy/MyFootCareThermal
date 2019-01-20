@@ -1,0 +1,94 @@
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" >-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.footcare.diabeticcarethermal.Tutorial3View
+        android:id="@+id/tutorial3_activity_java_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/lLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/leftright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_vertical|center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:foregroundGravity="top|center"
+            android:gravity="top"
+            android:text="Left Foot / Right Foot  "
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/AutoTakerSwitchID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:layout_marginBottom="10dp"
+            android:text="Auto/Manual Photo"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:weightSum="10">
+
+            <ImageButton
+                android:id="@+id/btnTakePic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_rounded"
+                android:src="@android:drawable/ic_menu_camera" />
+
+            <Button
+                android:id="@+id/retryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_rounded_redesign_2"
+                android:gravity="center"
+                android:text="Retry"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/continueButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_rounded_redesign"
+                android:gravity="center"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+        </TableRow>
+
+    </LinearLayout>
+</RelativeLayout>
+<!--</LinearLayout>-->

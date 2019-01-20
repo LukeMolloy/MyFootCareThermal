@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.footcare.diabeticcarethermal.LeftOrRight"
+    android:orientation="vertical"
+    android:weightSum="1">
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="diabeticcarethermalthermal.LeftOrRight"-->
+    <!--android:orientation="vertical"-->
+    <!--android:weightSum="1">-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.06"
+            android:gravity="center_horizontal"
+            android:text="Which Foot Are You Photographing?"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="154dp">
+
+        <Button
+            android:id="@+id/action_open_img"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="leftFoot"
+            android:text="Left Foot" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <Button
+            android:id="@+id/takephoto"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="rightFoot"
+            android:text="Right Foot" />
+    </LinearLayout>
+</LinearLayout>
+<!--</android.support.constraint.ConstraintLayout>-->
